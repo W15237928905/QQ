@@ -2,14 +2,6 @@
 
 SQL::SQL()
 {
-//    Data_Base = QSqlDatabase::addDatabase("QMYSQL");
-//    Data_Base.setHostName("127.0.0.1");
-//    Data_Base.setPort(3306);
-//    Data_Base.setUserName("root");
-//    Data_Base.setPassword("188197");
-//    qDebug() << QString("Data_Base地址：%1").arg(reinterpret_cast<quintptr>(&Data_Base), 0, 16);
-//    qDebug() << QString("*Data_Base存储对象的地址：%1").arg(reinterpret_cast<quintptr>(*(&Data_Base)), 0, 16);
-
     qDebug() << "执行SQL::SQL()";
     //初始化对象
     Sql_Error = new QSqlError();
@@ -20,7 +12,7 @@ SQL::SQL()
     Data_Base->setHostName("127.0.0.1");
     Data_Base->setPort(3306);
     Data_Base->setUserName("root");
-    Data_Base->setPassword("188197");
+    Data_Base->setPassword("");
     Data_Base->setDatabaseName("qqdate");
 
     if (Data_Base->open()) {
