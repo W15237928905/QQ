@@ -10,9 +10,9 @@ SQL::SQL()
     *Data_Base = QSqlDatabase::addDatabase("QMYSQL");
     Data_Base->setHostName("127.0.0.1");
     Data_Base->setPort(3306);
-    Data_Base->setUserName("root");
-    Data_Base->setPassword("188197");
-    Data_Base->setDatabaseName("qqdate");
+    Data_Base->setUserName("");
+    Data_Base->setPassword("");
+    Data_Base->setDatabaseName("");
 
     if (Data_Base->open()) {
         qDebug() << "成功连接到数据库";

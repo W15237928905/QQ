@@ -19,8 +19,8 @@ AiThread::AiThread(QObject *parent)
 void AiThread::init_Authentication()
 {
     //初始化鉴权元素
-    APIKey = "PbhRuT6iTPgpvETgFngOWAGa";
-    APISecret = "fKey53SS5G7d56EPH3LTeMINtKpAYI9V";
+    APIKey = "";
+    APISecret = "";
 
     //初始化POST请求的参数
     QUrlQuery params;
