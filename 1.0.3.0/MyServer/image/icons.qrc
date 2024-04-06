@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/becurrent">
+        <file>becurrent/close.png</file>
+        <file>becurrent/minus.png</file>
+    </qresource>
+</RCC>
